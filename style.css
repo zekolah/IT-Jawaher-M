@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+body{
+    font-family: "Cairo", sans-serif;
+    
+}
+
+
+
+
+.header{
+    background-color: rgb(79, 182, 182);
+    color: rgb(2, 22, 22);
+    height: 50px;
+    line-height: 50px;
+}
+.header a{
+    float: right;
+    margin-top: 5px;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    position: absolute;
+    z-index: 1;
+}
+.feutures h2{
+    margin-bottom:30px;
+    font-size:40px;
+
+}
+
+.feutures{
+    margin-top:75px;
+}
+.feutures i{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    line-height: 100px;
+    color: beige;
+    font-size: 40px;
+    margin-bottom:20px;
+}
+.feutures p{
+    margin-top:20px;
+    color: rgb(56, 52, 52);
+    line-height:1.8;
+    text-align: center;
+}
+.our-team{
+    background-color: #eee;
+    padding: 20px;
+}
+.statestic{
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/Business_candle_stick_graph_chart_of_stock_generated.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    background-attachment: fixed;
+}
+.statestic .overlay{
+    padding-top:100px;
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 100%;
+    height: 100%;
+}
+.statestic .overlay h3{
+    color: white;
+}
+.statestic .overlay p{
+    color: beige;
+    font-size: 100px;
+}
+.our-partners{
+    margin-top: 100px;
+    background-color: #eee;
+    line-height: 200px;
+    border-bottom: 3px solid rgb(79, 182, 182);
+}
+.recent-news h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.recent-news img{
+    transition: opacity ease-in-out .2s;
+}
+.recent-news img:hover{
+    cursor: pointer;
+    opacity: .9;
+}
+footer {
+    background-color: aqua;
+    padding-top: 30px;
+    margin-top: 150px;
+}
+
+footer ul li {
+    list-style: none;
+}
+.footer1 a{
+    display: inline-block
+}
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.jumbotron .blog-info{
+    flex: 2;
+}
+.jumbotron .blog-image{
+    flex: 1;
+}
+.blog-details p {
+    line-height: 2;
+    padding: 10px;
+
+}
