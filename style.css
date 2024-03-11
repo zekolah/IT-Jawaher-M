@@ -56,7 +56,7 @@ body{
 .statestic{
     width: 100%;
     height: 500px;
-    background-image: url('../images/Business_candle_stick_graph_chart_of_stock_generated.jpg');
+    background-image: url('Business_candle_stick_graph_chart_of_stock_generated.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 100px;
